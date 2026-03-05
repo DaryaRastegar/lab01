@@ -1,10 +1,8 @@
-public class MyFirstProgram {
-    public void start() {
-        System.out.println("Hello World");
-    }
+import ictgradschool.industry.introtojava.mysecondprogram.MySecondProgram;
 
+public class MyFirstProgram {
     public static void main(String[] args) {
-        MyFirstProgram p = new MyFirstProgram();
+        MySecondProgram p = new MySecondProgram();
         p.start();
     }
 }
